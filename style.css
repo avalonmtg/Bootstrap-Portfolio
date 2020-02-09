@@ -1,0 +1,49 @@
+body {
+    background-image: url(images/blue-snow.png);
+    padding:0;
+    margin:0;
+   }
+
+header {
+    /* max-width: 960px; */
+    width: 100%;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    margin: 0px auto;
+    border-color: grey;
+    border-width: 0px 0px 1 px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+h1 {
+    padding: 25px;
+    margin:0px;
+    margin-bottom: 20px;
+    margin-left: 115px;
+    width: 20%;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    background: teal;
+}
+
+.footer {
+    /*clear: both;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4AAAA5;    
+}
+
+bottom {
+    clear:both;
+}
